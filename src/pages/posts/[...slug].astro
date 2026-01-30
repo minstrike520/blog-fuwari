@@ -112,25 +112,45 @@ const jsonLd = {
     </div>
 
     <div class="flex flex-col md:flex-row justify-between mb-4 gap-0 overflow-hidden w-full">
-        <a href={entry.data.nextSlug ? getPostUrlBySlug(entry.data.nextSlug) : "#"}
-           class:list={["w-full font-bold overflow-hidden active:scale-95", {"pointer-events-none": !entry.data.nextSlug}]}>
-            {entry.data.nextSlug && <div class="btn-card rounded-none border-2 border-black dark:border-white w-full h-[3.75rem] max-w-full px-4 flex items-center !justify-start gap-4" >
-                <Icon name="material-symbols:chevron-left-rounded" class="text-[2rem] text-[var(--primary)]" />
-                <div class="overflow-hidden transition overflow-ellipsis whitespace-nowrap max-w-[calc(100%_-_3rem)] text-black/75 dark:text-white/75">
-                    {entry.data.nextTitle}
+        {entry.data.nextSlug ? (
+            <a href={getPostUrlBySlug(entry.data.nextSlug)}
+               class="w-full font-bold overflow-hidden active:scale-95">
+                <div class="btn-card rounded-none border-2 border-black dark:border-white w-full h-[3.75rem] max-w-full px-4 flex items-center !justify-start gap-4" >
+                    <Icon name="material-symbols:chevron-left-rounded" class="text-[2rem] text-[var(--primary)]" />
+                    <div class="overflow-hidden transition overflow-ellipsis whitespace-nowrap max-w-[calc(100%_-_3rem)] text-black/75 dark:text-white/75">
+                        {entry.data.nextTitle}
+                    </div>
                 </div>
-            </div>}
-        </a>
+            </a>
+        ) : (
+            <div class="w-full font-bold overflow-hidden">
+                <div class="rounded-none border-2 border-black dark:border-white w-full h-[3.75rem] max-w-full px-4 flex items-center !justify-start gap-4 bg-neutral-100 dark:bg-neutral-900" >
+                    <div class="overflow-hidden transition overflow-ellipsis whitespace-nowrap max-w-[calc(100%_-_3rem)] text-black/50 dark:text-white/50">
+                        前面沒有了 :/
+                    </div>
+                </div>
+            </div>
+        )}
 
-        <a href={entry.data.prevSlug ? getPostUrlBySlug(entry.data.prevSlug) : "#"}
-           class:list={["w-full font-bold overflow-hidden active:scale-95", {"pointer-events-none": !entry.data.prevSlug, "-mt-[2px] md:-ml-[2px] md:mt-0": !!entry.data.nextSlug}]}>
-            {entry.data.prevSlug && <div class="btn-card rounded-none border-2 border-black dark:border-white w-full h-[3.75rem] max-w-full px-4 flex items-center !justify-end gap-4">
-                <div class="overflow-hidden transition overflow-ellipsis whitespace-nowrap max-w-[calc(100%_-_3rem)] text-black/75 dark:text-white/75">
-                    {entry.data.prevTitle}
+        {entry.data.prevSlug ? (
+            <a href={getPostUrlBySlug(entry.data.prevSlug)}
+               class="w-full font-bold overflow-hidden active:scale-95 -mt-[2px] md:-ml-[2px] md:mt-0">
+                <div class="btn-card rounded-none border-2 border-black dark:border-white w-full h-[3.75rem] max-w-full px-4 flex items-center !justify-end gap-4">
+                    <div class="overflow-hidden transition overflow-ellipsis whitespace-nowrap max-w-[calc(100%_-_3rem)] text-black/75 dark:text-white/75">
+                        {entry.data.prevTitle}
+                    </div>
+                    <Icon name="material-symbols:chevron-right-rounded" class="text-[2rem] text-[var(--primary)]" />
                 </div>
-                <Icon name="material-symbols:chevron-right-rounded" class="text-[2rem] text-[var(--primary)]" />
-            </div>}
-        </a>
+            </a>
+        ) : (
+            <div class="w-full font-bold overflow-hidden -mt-[2px] md:-ml-[2px] md:mt-0">
+                <div class="rounded-none border-2 border-black dark:border-white w-full h-[3.75rem] max-w-full px-4 flex items-center !justify-end gap-4 bg-neutral-100 dark:bg-neutral-900" >
+                     <div class="overflow-hidden transition overflow-ellipsis whitespace-nowrap max-w-[calc(100%_-_3rem)] text-black/50 dark:text-white/50">
+                        後面沒有了 :/
+                    </div>
+                </div>
+            </div>
+        )}
     </div>
 
 </MainGridLayout>
