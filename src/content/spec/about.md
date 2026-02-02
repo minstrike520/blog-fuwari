@@ -9,7 +9,7 @@ title:
 
 部落格在 2026/2/2 遷移到 Fuwari/Astro。
 
-::github{repo="saicaca/fuwari"}
+::github{repo="minstrike520/blog-fuwari"}
 
 ---
 
