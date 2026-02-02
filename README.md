@@ -1,7 +1,6 @@
-# 🍥Fuwari  
-![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen) 
-![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue) 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/minstrike520/blog-fuwari/deploy.yml?logo=github&label=deploy)
+# 🗡️Blade's Blog v2
+![Build Status](https://img.shields.io/github/actions/workflow/status/minstrike520/blog-fuwari/build.yml?logo=github&label=build)
+![Deploy Status](https://img.shields.io/github/actions/workflow/status/minstrike520/blog-fuwari/deploy.yml?logo=github&label=deploy)
 
 A static blog built with [Astro](https://astro.build) and template [Fuwari](https://github.com/saicaca/fuwari).
 
