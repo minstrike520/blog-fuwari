@@ -47,6 +47,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
+		LinkPreset.Courses,
 		{
 			name: "本站原始碼",
 			url: "https://github.com/minstrike520/blog-fuwari", // Internal links should not include the base path, as it is automatically added
