@@ -1,0 +1,3 @@
+- [113-2 離散數學](/archive/?category=discrete-math)
+- [114-1 資料通訊](/archive/?category=data-communication)
+- [114-1 線性代數](/archive/?category=linear-algebra)
