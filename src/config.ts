@@ -31,8 +31,8 @@ export const siteConfig: SiteConfig = {
 	},
 	favicon: [
 		{
-			src: '/favicon/favicon.png'
-		}
+			src: "/favicon/favicon.png",
+		},
 		// Leave this array empty to use the default favicon
 		// {
 		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
@@ -61,7 +61,7 @@ export const profileConfig: ProfileConfig = {
 	name: "Blade/磯江",
 	bio: "君の手は どうしてこんなにも温かいの？♫/ねぇお願い どうかこのまま 離さないでいて♫",
 	links: [
-/* 		{
+		/* 		{
 			name: "Twitter",
 			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
