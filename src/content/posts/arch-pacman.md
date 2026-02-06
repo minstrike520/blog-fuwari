@@ -13,29 +13,28 @@ category: IT筆記
 
 ```
 $ LANG= pacman -Qi pacman  
-Name            : pacman  
-Version         : 7.1.0.r7.gb9f7d4a-1  
-Description     : A library-based package manager with dependency support  
-Architecture    : x86_64  
-URL             : https://www.archlinux.org/pacman/  
-Licenses        : GPL-2.0-or-later  
-Groups          : None  
-Provides        : libalpm.so=16-64  
-Depends On      : bash  coreutils  curl  libcurl.so=4-64  gawk  gettext  glibc  gnupg  gpgme  libgpgme.so=45-64  grep  libarchive  libarchive.so=13-64  
-                 openssl  libcrypto.so=3-64  pacman-mirrorlist  systemd  libmakepkg-dropins  
-Optional Deps   : base-devel: required to use makepkg [installed]  
-                 perl-locale-gettext: translation support in makepkg-template  
-Required By     : archlinux-keyring  base  base-devel  pacseek  yay  
-Optional For    : None  
-Conflicts With  : None  
-Replaces        : None  
-Installed Size  : 5.01 MiB  
-Packager        : Antonio Rojas <arojas@archlinux.org>  
-Build Date      : Fri Dec 12 21:03:39 2025  
-Install Date    : Wed Jan 7 10:46:00 2026  
-Install Reason  : Installed as a dependency for another package  
-Install Script  : No  
-Validated By    : Signature
+[0;1mName            :[0m pacman
+[0;1mVersion         :[0m 7.1.0.r9.g54d9411-1
+[0;1mDescription     :[0m A library-based package manager with dependency support
+[0;1mArchitecture    :[0m x86_64
+[0;1mURL             :[0m https://www.archlinux.org/pacman/
+[0;1mLicenses        :[0m GPL-2.0-or-later
+[0;1mGroups          :[0m None
+[0;1mProvides        :[0m libalpm.so=16-64
+[0;1mDepends On      :[0m bash  coreutils  curl  libcurl.so=4-64  gawk  gettext  glibc  gnupg  gpgme  libgpgme.so=45-64  grep  libarchive  libarchive.so=13-64  openssl  libcrypto.so=3-64  pacman-mirrorlist  systemd  libmakepkg-dropins
+[0;1mOptional Deps   :[0m base-devel: required to use makepkg [installed]
+                  perl-locale-gettext: translation support in makepkg-template
+[0;1mRequired By     :[0m archlinux-keyring  base  base-devel  pacseek  paru  yay
+[0;1mOptional For    :[0m None
+[0;1mConflicts With  :[0m None
+[0;1mReplaces        :[0m None
+[0;1mInstalled Size  :[0m 5.01 MiB
+[0;1mPackager        :[0m Morten Linderud <foxboron@archlinux.org>
+[0;1mBuild Date      :[0m Tue Jan 13 04:27:06 2026
+[0;1mInstall Date    :[0m Wed Jan 28 09:24:34 2026
+[0;1mInstall Reason  :[0m Installed as a dependency for another package
+[0;1mInstall Script  :[0m No
+[0;1mValidated By    :[0m Signature
 ```
 
 可以運用 grep 等搜尋機能來進行更細緻的篩選。

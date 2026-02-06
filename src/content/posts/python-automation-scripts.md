@@ -3,7 +3,8 @@ title: Python 自動化腳本
 published: 2026-02-02
 tags:
   - Scripts
-category: Python
+  - Python
+category: IT筆記
 description: 一些 Python 的文字處理腳本
 ---
 ## Hexo-Astro Transformation
