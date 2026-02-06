@@ -1,7 +1,9 @@
 ---
 title: "Linear Algebra - Chapter 2: Matrices and Linear Transformations"
 published: 2025-10-21 10:00:00
-category: linear-algebra
+category: 大學修課
+tags:
+  - linear-algebra
 ---
 [課程總覽](../)
 ## 2-1 Matrix Multiplication

@@ -1,7 +1,7 @@
 ---
 title: 113-2 Discrete Mathematics
 published: 2026-01-28
-category: discrete-math
+category: 大學修課
 ---
 [課程網頁](https://sites.google.com/gapps.ntnu.edu.tw/discrete-math)
 

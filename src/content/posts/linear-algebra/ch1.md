@@ -1,7 +1,9 @@
 ---
 title: "Linear Algebra - Chapter 1: Matrices and Linear Transformations"
 published: 2025-10-07
-category: linear-algebra
+category: 大學修課
+tags:
+  - linear-algebra
 ---
 [課程總覽](../)
 

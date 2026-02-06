@@ -1,7 +1,9 @@
 ---
 title: "Linear Algebra Chapter 6: Orthogonality"
 published: 2025-12-14
-category: linear-algebra
+category: 大學修課
+tags:
+  - linear-algebra
 ---
 [課程總覽](../)
 ## 6.1 Geometry of Vectors

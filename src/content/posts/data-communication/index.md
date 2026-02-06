@@ -1,8 +1,9 @@
 ---
 title: 114-1 Data Communication - Overview
 published: 2025-12-26
-tags: []
-category: data-communication
+tags:
+  - data-communication
+category: 大學修課
 description: 114-1 資料通訊
 ---
 這份筆記（除了 Queueing Theory 的 Week 9 章節）曾作為資料通訊修課時期末繳交的作業。

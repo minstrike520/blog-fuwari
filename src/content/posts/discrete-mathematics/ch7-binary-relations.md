@@ -1,7 +1,9 @@
 ---
 title: 07 Binary Relations
 published: 2025-06-06
-category: discrete-math
+category: 大學修課
+tags:
+  - discrete-math
 ---
 [課程總覽](../)
 ### Cartesian Product

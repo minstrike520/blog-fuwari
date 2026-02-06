@@ -1,7 +1,9 @@
 ---
 title: 02 Modular Arithmetics
 published: 2025-04-10
-category: discrete-math
+category: 大學修課
+tags:
+  - discrete-math
 ---
 [課程總覽](../)
 # Congruence

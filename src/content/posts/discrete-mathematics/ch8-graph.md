@@ -1,7 +1,9 @@
 ---
 title: 08 Basics of Graph
 published: 2025-06-03
-category: discrete-math
+category: 大學修課
+tags:
+  - discrete-math
 ---
 [課程總覽](../)
 ## Hall's Condition

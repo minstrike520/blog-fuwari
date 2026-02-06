@@ -1,8 +1,9 @@
 ---
 title: Queueing Theory
 published: 2026-01-27
-tags: []
-category: data-communication
+tags:
+  - data-communication
+category: 大學修課
 ---
 
 [課程總覽](../)

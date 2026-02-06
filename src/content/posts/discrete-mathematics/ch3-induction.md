@@ -1,7 +1,9 @@
 ---
 title: 03 Mathematical Induction
 published: 2025-04-07
-category: discrete-math
+category: 大學修課
+tags:
+  - discrete-math
 ---
 [課程總覽](../)
 # Euclidean Algorithm

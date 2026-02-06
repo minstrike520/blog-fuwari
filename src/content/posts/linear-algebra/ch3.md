@@ -1,7 +1,9 @@
 ---
 title: "Linear Algebra - Chapter 3: Determinants"
 published: 2025-10-21
-category: linear-algebra
+category: 大學修課
+tags:
+  - linear-algebra
 ---
 [課程總覽](../)
 ## 3-1 Cofactors
