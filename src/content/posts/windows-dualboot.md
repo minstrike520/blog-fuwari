@@ -26,8 +26,8 @@ sudo pacman -S edk2-shell
 cp /usr/share/edk2-shell/x64/Shell.efi /boot/efishellx64.efi
 ```
 
-/boot/loader/entries/efishellx64.conf
-```shell
+
+```shell title=/boot/loader/entries/efishellx64.conf
 title	UEFI Shell x64
 efi	/efishellx64.efi
 ```
