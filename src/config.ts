@@ -78,6 +78,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/minstrike520",
 		},
+		{
+		name: "Mail",
+		icon: "fa6-regular:envelope",
+		url: "mailto:minstrike520@gmail.com",
+		},
 	],
 };
 
