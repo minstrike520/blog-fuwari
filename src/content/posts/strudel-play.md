@@ -20,9 +20,9 @@ draft: false
 
 ## 之前的經驗
 
-之前曾經嘗試過用 [Sonic Pi](https://sonic-pi.net/)（一樣是 live coding 的音樂製作軟體），但是用一用覺得不怎麼順手。
+之前曾經嘗試過用 [Sonic Pi](https://sonic-pi.net/)（一樣是 live coding 的音樂製作軟體），但是環境有點難設定，而且就算設定好了，用一用也覺得不怎麼順手。而 Strudel 可以直接在網頁上執行，而且說明很詳細，就上手難易而言完勝 Sonic Pi。
 
-## 實際作品
+## 實際操作
 
 ```strudel
 // @title FM youtube @by glossing
