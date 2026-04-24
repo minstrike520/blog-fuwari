@@ -12,8 +12,6 @@ concurrency:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 jobs:
   check:
@@ -67,14 +65,3 @@ jobs:
 
       - name: Run Astro Build
         run: pnpm astro build
-
-      - name: Upload GitHub Pages artifact
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && matrix.node == 22
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
-
-      - name: Deploy to GitHub Pages
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main' && matrix.node == 22
-        id: deployment
-        uses: actions/deploy-pages@v4
