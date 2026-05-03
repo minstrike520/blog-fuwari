@@ -32,9 +32,11 @@ jobs:
       - name: Move post data and configuration to src/content
         run: |
           mkdir -p src/content
-          cp -R blog_content/posts/    src/content/
-          cp -R blog_content/spec/     src/content/
-          cp    blog_content/config.ts src/content/
+          while IFS= read -r item || [ -n "$item" ]; do
+            [[ -z "$item" || "$item" == \#* ]] && continue
+            echo "Copying $item..."
+            cp -R "temp_obsidian/$item" src/content/
+          done < sync-list.txt
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         with:
