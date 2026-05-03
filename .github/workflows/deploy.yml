@@ -27,8 +27,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ secrets.POSTS_REPOSITORY }}
-          path: src/content
+          path: blog_content
           token: ${{ secrets.PAT_FOR_CHECKOUT || github.token }}
+      - name: Move post data and configuration to src/content
+        run: |
+          mkdir -p src/content
+          cp -R blog_content/posts/    src/content/
+          cp -R blog_content/spec/     src/content/
+          cp    blog_content/config.ts src/content/
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         with:
