@@ -31,8 +31,8 @@ yarn.lock
 *.iml
 
 # content
-src/content/posts/*
-!src/content/posts/.gitkeep
+src/content/*
+!src/content/.gitkeep
 
 # obsidian
 .obsidian/
